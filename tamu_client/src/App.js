@@ -1,5 +1,6 @@
 
 import './App.css';
+import logo from './images/logo.png';
 import {Container, Navbar ,Nav, NavDropdown, Card, Row, Col} from "react-bootstrap";
 import Home from './components/home';
 import Footer from './components/footer';
@@ -12,7 +13,7 @@ function App() {
       <Navbar collapseOnSelect expand = "lg" bg ="dark" variant ="dark">
 
         <Container>
-          <Navbar.Brand href= "#home">Tamu</Navbar.Brand>
+          <Navbar.Brand href= "#home"><img id = "logo" src={logo} />Tamu</Navbar.Brand>
           <Navbar.Toggle aria-controls ="responsive-navbar-nav"/>
           <Navbar.Collapse id ="responsive-navbar-nav">
 

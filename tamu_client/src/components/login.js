@@ -1,12 +1,14 @@
 import React from 'react';
 import {Row, Col, Card } from 'react-bootstrap';
+import logo from '../images/logo.png';
+import './styles/login.css';
 
 function Login () {
 
     return(
         <Row>
             <Col sm md={6} xs>
-                <h3>Image</h3>
+                <img className="login-logo" alt="logo" src={logo} />
             </Col>
             <Col sm md={6} xs>
                 <Card>

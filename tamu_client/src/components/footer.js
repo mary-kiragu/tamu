@@ -1,18 +1,19 @@
 import react from 'react';
+import "./styles/footer.css";
 import { Row, Col, Card } from 'react-bootstrap';
 
 function Footer () {
 
     return(
-        <Row w-100 >
+        <Row w-100  className="footer">
             <Col>
-                <h2>Footer</h2>
+                <h6>Footer</h6>
             </Col>
             <Col>
-                <h2>Footer</h2>
+                <h6>Footer</h6>
             </Col>
             <Col>
-                <h2>Footer</h2>
+                <h6>Footer</h6>
             </Col>
 
         </Row>

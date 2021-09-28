@@ -7,26 +7,26 @@ function Home () {
 
     return(
         <div className="home">
-    {/* //     <Row>
-    //     <Col sm md xs>
-    //       <Card>
-    //         <Card.Header>Hey</Card.Header>
-    //         <Card.Body>hey hey hey </Card.Body>
-    //       </Card>
-    //     </Col>
-    //     <Col sm md xs>
-    //       <Card>
-    //         <Card.Header>Hey</Card.Header>
-    //         <Card.Body>hey hey hey </Card.Body>
-    //       </Card>
-    //     </Col>
-    //     <Col sm md xs>
-    //       <Card>
-    //         <Card.Header>Hey</Card.Header>
-    //         <Card.Body>hey hey hey </Card.Body>
-    //       </Card>
-    //     </Col>
-    //   </Row> */}
+         <Row>
+         <Col sm md xs>
+           <Card>
+             <Card.Header>Hey</Card.Header>
+             <Card.Body>hey hey hey </Card.Body>
+           </Card>
+         </Col>
+         <Col sm md xs>
+           <Card>
+             <Card.Header>Hey</Card.Header>
+             <Card.Body>hey hey hey </Card.Body>
+           </Card>
+         </Col>
+         <Col sm md xs>
+           <Card>
+             <Card.Header>Hey</Card.Header>
+             <Card.Body>hey hey hey </Card.Body>
+           </Card>
+         </Col>
+       </Row>
     
     <Login />
 
