@@ -7,7 +7,7 @@ function Home () {
 
     return(
         <div className="home">
-         <Row>
+         {/* <Row>
          <Col sm md xs>
            <Card>
              <Card.Header>Hey</Card.Header>
@@ -27,7 +27,7 @@ function Home () {
            </Card>
          </Col>
        </Row>
-    
+     */}
     <Login />
 
     </div>
