@@ -32,7 +32,12 @@ function Footer () {
                 <img alt="Tamu" src={Tamu} style={{ width:"200px", height:"200px" }}/>
             </Col>
             <Col>
-                <h6>Footer</h6>
+                <p>About Us</p>
+                <p>Facebook</p>
+                <p>Twitter </p>
+                <p>Pinterest </p>
+                <p>Instagram </p>
+                
             </Col>
 
         </Row>
