@@ -1,13 +1,13 @@
 import React from 'react';
 import { Row, Col, Card } from 'react-bootstrap';
-import Login from './login';
+//import Login from './login';
 import './styles/home.css';
 
 function Home () {
 
     return(
         <div className="home">
-         {/* <Row>
+         <Row>
          <Col sm md xs>
            <Card>
              <Card.Header>Hey</Card.Header>
@@ -27,8 +27,8 @@ function Home () {
            </Card>
          </Col>
        </Row>
-     */}
-    <Login />
+    
+    
 
     </div>
     );

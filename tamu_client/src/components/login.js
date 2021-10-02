@@ -7,7 +7,7 @@ function Login () {
 
     return(
         <Row>
-            <Col sm md={6} xs style={{ backgroundColor: '#F37171' }}>
+            <Col sm md={6} xs style={{  }}>
                 <img className="login-logo" alt="logo" src={logo} />
             </Col>
             <Col sm md={4} xs>
@@ -27,9 +27,9 @@ function Login () {
                                 <Form.Check type="checkbox" label="keep me logged in?" />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                            <Form.Label>Already have an account? <h5>Sing up here</h5></Form.Label>
+                            <Form.Label>Already have an account? <h5>Sign up here</h5></Form.Label>
                             </Form.Group>
-                            <Button variant="primary" type="submit">Login</Button>
+                            <Button  variant="primary" type="submit">Login</Button>
                         </Form>
                     </Card.Body>
                 </Card>

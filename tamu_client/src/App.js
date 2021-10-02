@@ -1,19 +1,26 @@
 
 import './App.css';
 import logo from './images/logo.png';
-import {Container, Navbar ,Nav, NavDropdown, Card, Row, Col} from "react-bootstrap";
+import {Container, Navbar ,Nav, NavDropdown, Card, Row, Col, NavLink} from "react-bootstrap";
 import Home from './components/home';
+import Login from './components/login';
 import Footer from './components/footer';
+import {Route, Link, BrowserRouter} from 'react-router-dom'
+
 
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar collapseOnSelect expand = "lg" bg ="dark" variant ="dark">
+      
+      <BrowserRouter>
+
+
+      <Navbar collapseOnSelect expand = "lg"  >
 
         <Container>
-          <Navbar.Brand href= "#home"><img id = "logo" src={logo} />Tamu</Navbar.Brand>
+          <Navbar.Brand href= "/"><img id = "logo" src={logo} />Tamu</Navbar.Brand>
           <Navbar.Toggle aria-controls ="responsive-navbar-nav"/>
           <Navbar.Collapse id ="responsive-navbar-nav">
 
@@ -76,8 +83,11 @@ function App() {
 
               </NavDropdown>
               
+              
 
             </Nav>
+            {/* <Nav.Brand>login</Nav.Brand> */}
+            <NavLink href ="/login" exact> login</NavLink>
           </Navbar.Collapse>
 
 
@@ -85,12 +95,19 @@ function App() {
       </Navbar>
 
       <Container>
-        <Home/>
+      
+      <Route exact path="/" component ={Home}/>
+      <Route exact path="/login" component ={Login}/>  
+           
+        
+        
+       
        
       </Container>
 
       <Footer />
-     
+      </BrowserRouter>
+      
     </div>
   );
 }
