@@ -29,8 +29,12 @@ function Login () {
                             <Form.Group className="mb-3" controlId="formBasicCheckbox">
                             <Form.Label>Already have an account? <h5>Sign up here</h5></Form.Label>
                             </Form.Group>
+                            <Card.Link href="signup" exact>Sign Up</Card.Link>
                             <Button  variant="primary" type="submit">Login</Button>
+
                         </Form>
+                        
+
                     </Card.Body>
                 </Card>
             </Col>

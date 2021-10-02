@@ -1,11 +1,12 @@
 
 import './App.css';
 import logo from './images/logo.png';
-import {Container, Navbar ,Nav, NavDropdown, Card, Row, Col, NavLink} from "react-bootstrap";
+import {Container, Navbar ,Nav, NavDropdown, Card, Row, Col} from "react-bootstrap";
 import Home from './components/home';
 import Login from './components/login';
 import Footer from './components/footer';
-import {Route, Link, BrowserRouter} from 'react-router-dom'
+import SignUp from './components/signup';
+import {Route, BrowserRouter} from 'react-router-dom'
 
 
 
@@ -86,8 +87,14 @@ function App() {
               
 
             </Nav>
-            {/* <Nav.Brand>login</Nav.Brand> */}
-            <NavLink href ="/login" exact> login</NavLink>
+            <Nav>
+              <Nav.Link href="/upload">Upload</Nav.Link>
+            
+            <Nav.Link href ="/login" exact> login</Nav.Link>
+
+            </Nav>
+
+
           </Navbar.Collapse>
 
 
@@ -97,7 +104,8 @@ function App() {
       <Container>
       
       <Route exact path="/" component ={Home}/>
-      <Route exact path="/login" component ={Login}/>  
+      <Route exact path="/login" component ={Login}/> 
+      <Route exact path="/signup" component ={SignUp}/>
            
         
         
