@@ -6,10 +6,7 @@ import './styles/signup.css';
 function signup(){
     return(
         <Row >
-            <Col sm md={6} xs >
-            <img className="signup-logo" alt="logo" src={logo} />
-            
-            </Col>
+           
             <Col sm md={4} xs>
                 <Card style={{ }}>
                     <Card.Header><h1>Sign Up</h1></Card.Header>
@@ -32,6 +29,11 @@ function signup(){
                     </Card.Body>
 
                 </Card>
+            </Col>
+
+            <Col sm md={6} xs >
+            <img className="signup-logo" alt="logo" src={logo} />
+            
             </Col>
 
         </Row>

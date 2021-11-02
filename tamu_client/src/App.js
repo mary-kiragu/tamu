@@ -21,7 +21,7 @@ function App() {
       <Navbar collapseOnSelect expand = "lg"  >
 
         <Container>
-          <Navbar.Brand href= "/"><img id = "logo" src={logo} />Tamu</Navbar.Brand>
+          <Navbar.Brand href= "/"><img id = "logo" src={logo}/></Navbar.Brand>
           <Navbar.Toggle aria-controls ="responsive-navbar-nav"/>
           <Navbar.Collapse id ="responsive-navbar-nav">
 
