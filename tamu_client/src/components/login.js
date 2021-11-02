@@ -27,9 +27,9 @@ function Login () {
                                 <Form.Check type="checkbox" label="keep me logged in?" />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                            <Form.Label>Already have an account? <h5>Sign up here</h5></Form.Label>
+                            <Form.Label> <Card.Link href="signup" exact>Create account</Card.Link> </Form.Label>
                             </Form.Group>
-                            <Card.Link href="signup" exact>Sign Up</Card.Link>
+                           
                             <Button  variant="primary" type="submit">Login</Button>
 
                         </Form>

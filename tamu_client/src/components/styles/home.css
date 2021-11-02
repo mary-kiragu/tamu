@@ -1,0 +1,12 @@
+#thumbnail{
+    min-height: 500px;
+    width: 600px;
+    background-color: none;
+}
+
+#thumbnail img {
+    min-height: 500px;
+    width: 600px;
+     background-color: none;
+
+}

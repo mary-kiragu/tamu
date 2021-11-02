@@ -3,6 +3,8 @@ import { Row, Col, Card } from 'react-bootstrap';
 //import Login from './login';
 import './styles/home.css';
 
+import logo from '../images/logo.png';
+
 function Home () {
 
     return(
@@ -15,10 +17,9 @@ function Home () {
            </Card>
          </Col>
          <Col sm md xs>
-           <Card>
-             <Card.Header>Hey</Card.Header>
-             <Card.Body>hey hey hey </Card.Body>
-           </Card>
+          <div className="img-thumbnail" id="thumbnail">
+          <img src={logo} alt="home image"/>
+          </div>
          </Col>
          <Col sm md xs>
            <Card>

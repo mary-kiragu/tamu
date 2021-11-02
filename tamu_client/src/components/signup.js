@@ -11,7 +11,7 @@ function signup(){
             
             </Col>
             <Col sm md={4} xs>
-                <Card>
+                <Card style={{ }}>
                     <Card.Header><h1>Sign Up</h1></Card.Header>
                     <Card.Body>
                         <Form>
@@ -22,7 +22,7 @@ function signup(){
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="Password">
                                 <Form.Label>Password</Form.Label>
-                                <Form.Control type="password "/>
+                                <Form.Control type= "password" />
 
 
                             </Form.Group>
