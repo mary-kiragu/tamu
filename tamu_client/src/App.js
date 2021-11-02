@@ -6,6 +6,7 @@ import Home from './components/home';
 import Login from './components/login';
 import Footer from './components/footer';
 import SignUp from './components/signup';
+import Upload from './components/upload';
 import {Route, BrowserRouter} from 'react-router-dom'
 
 
@@ -106,6 +107,7 @@ function App() {
       <Route exact path="/" component ={Home}/>
       <Route exact path="/login" component ={Login}/> 
       <Route exact path="/signup" component ={SignUp}/>
+      <Route exact path="/upload" component = {Upload} />
            
         
         
