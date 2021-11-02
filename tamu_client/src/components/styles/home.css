@@ -10,3 +10,10 @@
      background-color: none;
 
 }
+
+.carousel{
+    height: 600px;
+}
+.carousel img {
+    height: 600px;
+}

@@ -7,9 +7,7 @@ function Login () {
 
     return(
         <Row>
-            <Col sm md={6} xs style={{  }}>
-                <img className="login-logo" alt="logo" src={logo} />
-            </Col>
+            
             <Col sm md={4} xs>
                 <Card style={{ }}>
                     <Card.Header><h2>Login</h2></Card.Header>
@@ -37,6 +35,9 @@ function Login () {
 
                     </Card.Body>
                 </Card>
+            </Col>
+            <Col sm md={6} xs style={{  }}>
+                <img className="login-logo" alt="logo" src={logo} />
             </Col>
         </Row>
     );

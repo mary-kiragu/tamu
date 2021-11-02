@@ -88,7 +88,7 @@ function App() {
 
             </Nav>
             <Nav>
-              <Nav.Link href="/upload">Upload</Nav.Link>
+              <Nav.Link href="/upload">Upload recipe</Nav.Link>
             
             <Nav.Link href ="/login" exact> login</Nav.Link>
 
