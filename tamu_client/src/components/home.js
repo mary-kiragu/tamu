@@ -63,8 +63,47 @@ function Home () {
 
        <Row>
          <Col sm={6} md={3} xs={3}>
-           <Card>
-             
+           <Card style={{ width: '18rem' }}>
+             <Card.Img variant="top" src={salmon} />
+             <Card.Body>
+               <Card.Title>Salmon</Card.Title>
+               <Card.Text>
+                 What is salmon ?????
+               </Card.Text>
+             </Card.Body>
+           </Card>
+         </Col>
+         <Col sm={6} md={3} xs={3}>
+           <Card style={{ width: '18rem' }}>
+             <Card.Img variant="top" src={salmon} />
+             <Card.Body>
+               <Card.Title>Salmon</Card.Title>
+               <Card.Text>
+                 What is salmon ?????
+               </Card.Text>
+             </Card.Body>
+           </Card>
+         </Col>
+         <Col sm={6} md={3} xs={3}>
+           <Card style={{ width: '18rem' }}>
+             <Card.Img variant="top" src={salmon} />
+             <Card.Body>
+               <Card.Title>Salmon</Card.Title>
+               <Card.Text>
+                 What is salmon ?????
+               </Card.Text>
+             </Card.Body>
+           </Card>
+         </Col>
+         <Col sm={6} md={3} xs={3}>
+           <Card style={{ width: '18rem' }}>
+             <Card.Img variant="top" src={salmon} />
+             <Card.Body>
+               <Card.Title>Salmon</Card.Title>
+               <Card.Text>
+                 What is salmon ?????
+               </Card.Text>
+             </Card.Body>
            </Card>
          </Col>
        </Row>
